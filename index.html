@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Coco Malatang - Kushnya Bikin Nagih</title>
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#home">
+                    <img src="logo1.png" alt="Coco Malatang Logo">
+                    <div class="logo-texts">
+                        <div class="logo-text">COCO <span>MALATANG</span></div>
+                        <div class="tagline">Kushnya Bikin Nagih</div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Hamburger / Toggle Button -->
+            <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="primary-navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <nav id="primary-navigation">
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>COCO <span>MALATANG</span></h1>
+            <p>Rasa Pedas Autentik yang Membuat Anda Ketagihan</p>
+            <a href="#menu" class="btn">Lihat Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Kami</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Pengalaman Malatang Terbaik</h3>
+                    <p>Coco Malatang hadir dengan konsep modern yang memadukan cita rasa autentik Tiongkok dengan sentuhan lokal. Kami menggunakan bahan-bahan segar pilihan dan bumbu rahasia yang telah diwariskan turun-temurun.</p>
+                    <p>Setiap mangkuk Malatang kami disajikan dengan kuah kaldu tulang sapi yang dimasak selama 12 jam, memberikan rasa gurih yang mendalam. Anda dapat memilih tingkat kepedasan sesuai selera, dari Mild hingga Extra Spicy.</p>
+                    <p>Kami berkomitmen untuk memberikan pengalaman kuliner yang tak terlupakan dengan pelayanan terbaik dan suasana yang nyaman.</p>
+                    <a href="#contact" class="btn">Reservasi Sekarang</a>
+                </div>
+                <div class="about-image">
+                    <img src="f1.jpeg" alt="Coco Malatang">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title">Menu Spesial</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="a2.webp" class="zoomable" data-large="a2.webp">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Malatang Special Paket Rame - Rame</h3>
+                        <div class="menu-item-price">Rp 110.000</div>
+                        <p class="menu-item-description">Baso2 An Dan Sayur Isi 1100 Gram</p>
+                        <a href="#" class="menu-item-button">Pesan Sekarang</a>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="a3.webp"  class="zoomable" data-large="a3.webp">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Paket Puas</h3>
+                        <div class="menu-item-price">Rp35.000</div>
+                        <p class="menu-item-description">Nasi,Sup Mala,Es Teh</p>
+                        <a href="#" class="menu-item-button">Pesan Sekarang</a>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="a4.webp" class="zoomable" data-large="a4.webp">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Paket Happy</h3>
+                        <div class="menu-item-price">Rp 35.000</div>
+                        <p class="menu-item-description">Mi.Sup Mala Baso2 An.Es Teh</p>
+                        <a href="#" class="menu-item-button">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Galeri Kami</h2>
+            <p style="text-align:center; margin-bottom:30px; color:#666;">Sejumlah momen dan menu pilihan dari Coco Malatang — klik untuk memperbesar.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="g1.jpg" data-large="g1.jpg"></div>
+                <div class="gallery-item"><img src="g2.jpg" data-large="g2.jpg"></div>    
+                <div class="gallery-item"><img src="g3.jpg" data-large="g3.jpg"></div>
+                <div class="gallery-item"><img src="g4.jpg" data-large="g4.jpg"></div>
+                <div class="gallery-item"><img src="g5.jpg" data-large="g5.jpg"></div>
+            </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox hidden" aria-hidden="true">
+            <button class="close" aria-label="Tutup">&times;</button>
+            <button class="prev" aria-label="Sebelumnya">&#8249;</button>
+            <img src="" alt="" />
+            <button class="next" aria-label="Berikutnya">&#8250;</button>
+            <div class="caption"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-content"><h3>Lokasi</h3><p>Sampit, Kalimantan Tengah</p></div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="info-content"><h3>Telepon</h3><p>(0341) 123-4567</p></div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-clock"></i></div>
+                        <div class="info-content"><h3>Jam Operasional</h3><p>Setiap Hari: 10:00 - 22:00 WIB</p></div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="info-content"><h3>Email</h3><p>info@cocomala.com</p></div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group"><label for="name">Nama Lengkap</label><input type="text" id="name" required></div>
+                        <div class="form-group"><label for="email">Email</label><input type="email" id="email" required></div>
+                        <div class="form-group"><label for="phone">Telepon</label><input type="tel" id="phone"></div>
+                        <div class="form-group"><label for="message">Pesan</label><textarea id="message" required></textarea></div>
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <a href="#" class="footer-logo">COCO <span>MALATANG</span></a>
+                    <p>Malatang dengan cita rasa autentik yang akan membuat Anda ketagihan. Bahan segar, bumbu rahasia, dan pelayanan terbaik.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/coco_malatang_sampit?igsh=aWR1Z3VseDQ2a3Z4"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3 class="footer-title">Tautan Cepat</h3>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+       
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3 class="footer-title">Hubungi Kami</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Tidar Utama No 12</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Jenderal Sudirman Km 1,5 Citimall Sampit</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Hm Arsyad No 120A</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. DI Panjaitan Simpang 4 H.Imran</p>
+                    <p><i class="fas fa-phone-alt"></i> (0341) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@cocomala.com</p>
+                    <p><i class="fas fa-clock"></i> Setiap Hari: 10:00 - 22:00</p>
+                </div>
+            </div>
+
+            <div class="copyright">&copy; 2025 Coco Malatang. Hak Cipta Dilindungi.</div>
+        </div>
+    </footer>
+
+    <!-- External script -->
+    <script src="script.js"></script>
+</body>
+</html>
